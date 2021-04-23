@@ -40,3 +40,5 @@ The weights are:
 * W(Q<sub>RS&#773;G</sub>) = 0.8, W(&#172;Q<sub>RS&#773;G</sub>) = 1 - 0.8 = 0.2
 * W(Q<sub>R&#773;SG</sub>) = 0.7, W(&#172;Q<sub>R&#773;SG</sub>) = 1 - 0.7 = 0.3
 * W(Q<sub>R&#773;S&#773;G</sub>) = 0.4, W(&#172;Q<sub>R&#773;S&#773;G</sub>) = 1 - 0.4 = 0.6
+
+I think an A should be given to this project, It is reasonably compact in its implementaion and can be easily scaled up for more complex applications. The main takeaway is weighted model counting is an effective way to represent probability for machines to work with instead of conditional probability that is more intutive for humans to learn and use
