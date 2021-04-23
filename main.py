@@ -67,7 +67,6 @@ def table_to_cnf(table):
 
 
 def evidence_to_cnf(evidence):
-    print(evidence)
     def val_to_bool(val):
         if val == '0':
             return False
@@ -105,7 +104,6 @@ def main():
     for table in tables:
         table_to_cnf(table)
     evidence_to_cnf(evidence)
-    print([v for v in F.variables()])
     print_to_file("cnf", F.dimacs())
     generate_weight_file()
 
